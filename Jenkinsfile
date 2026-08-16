@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         DOCKERHUB_CREDENTIALS = credentials('docker-creds-bala')
-        IMAGE_NAME = 'sribalajisankaradoss/flask-portfolionew'
+        IMAGE_NAME = 'bala29/flask-portfolionew'
     }
 
     stages {
