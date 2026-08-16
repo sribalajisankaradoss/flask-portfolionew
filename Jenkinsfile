@@ -30,7 +30,7 @@ pipeline {
         stage('Push to DockerHub') {
             steps {
                 script {
-                    dockerBuildPush('env.IMAGE_NAME:$BUILD_NUMBER')
+                    dockerBuildPush("${env.IMAGE_NAME}:${env.BUILD_NUMBER}")
                 }
             }
         }
