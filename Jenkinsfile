@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/sribalajisankaradoss/flask-portfolio.git'
+                git 'https://github.com/sribalajisankaradoss/flask-portfolionew.git'
             }
         }
 
